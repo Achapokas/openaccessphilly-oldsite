@@ -1,0 +1,5 @@
+ErrorDocument 404 /404.php
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^openaccessphilly.com [NC]
+RewriteRule ^(.*)$ http://www.openaccessphilly.com/$1 [L,R=301]

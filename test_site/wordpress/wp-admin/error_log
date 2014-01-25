@@ -1,0 +1,1 @@
+[19-Jan-2014 13:37:52] PHP Warning:  array_key_exists() [<a href='function.array-key-exists'>function.array-key-exists</a>]: The second argument should be either an array or an object in /home4/openacc3/public_html/test_site/wordpress/wp-content/themes/bootstrap-ultimate/functions.php on line 1508
