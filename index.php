@@ -227,26 +227,33 @@ $(document).ready(function() {
 		
 		<div id="conference" class="clearfix">
 			
-			<h2>Conference</h2>
+			<h2>Next Convening</h2>
 			
 			<div class="text">
 			
-				<h3>"Crowdsourcing at the Intersection"</h3>
+				<h3>February 7th 4PM at SEPTA</h3>
 				
 				<div class="calltoaction">
-					<a class="button" href="/conference.php">Learn More</a>
-					<p><i>or</i></p>
-					<a class="button" href="http://openaccessphilly.ticketleap.com/forum-10282011/">Register Now!<br>It's FREE!</a>
+					<a class="button" href="http://www.eventbrite.com/e/openaccessphl-february-2014-convening-tickets-10130012139">
+						RSVP for free<br>via Eventbrite
+					</a>
 				</div>
 				
-				<p class="description">What the City of Philadelphia government and partners are doing at the intersection of government innovation, technology, and citizen participation.</p>
-				
-				<p><strong>Date:</strong> Oct. 28th, 2011 &ndash; 8:30 to 4:00 PM</p>
-				
-				<p><strong>Location:</strong> <a href="http://www.sciencecenter.org/programs/quorum">Quorum Space at the Science Center</a></p>
-				
-				<p><strong>Purpose:</strong> Refine and more clearly define the OpenAccessPhilly vision and action steps being taken or that should be taken in furtherance of that vision.</p>
-				
+				<p class="description">
+					The next Convening has been set - Feb. 7th at 4P at <a href="https://plus.google.com/114385967595724004864/about?gl=us&hl=en" title="SEPTA HQ on Google Plus">SEPTA, 1234 Market Street</a>.
+				</p>
+				<p>Speakers</p>
+				<ul>
+					<li>
+						Michael Zaleski, Director of Emerging & Special Technology, SEPTA (Host)
+					</li>
+						Michelle Feldman, Director of Keep Philadelphia Beautiful
+					<li>
+						Maari Porter, Chief Grants Officer, City of Philadelphia
+					</li>
+					<li>
+						Moira Baylson, Chief Operating Officer, Next City
+					</li>
 				
 			</div>
 			

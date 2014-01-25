@@ -8,6 +8,4 @@
 							<li><a href="/infotec-growth.php">Infotec Biz Growth</a></li>
 						</ul>
 					</li>
-					<li><a href="/conference.php">Conference</a></li>
-					<!--li><a href="#">Project Database</a></li-->
 				</ul>

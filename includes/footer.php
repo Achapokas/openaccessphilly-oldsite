@@ -10,9 +10,6 @@
 				<li><a href="/infotec-growth.php">Infotec Biz Growth</a></li>
 			</ul>
 		</li>
-		<li><a href="/conference.php">Conference</a></li>
-		<!--li><a href="#">Project Database</a></li>
-		<li><a href="#">About</a></li-->
 		<li><a href="/contact.php">Contact Us</a>
 			<ul>
 				<li><a href="https://www.facebook.com/pages/OpenAccessPhilly/247969408563364">Facebook</a></li>
