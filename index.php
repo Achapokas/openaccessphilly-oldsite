@@ -20,7 +20,6 @@
 
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 <script type="text/javascript" src="scripts/jquery.idTabs.2.2.min.js"></script>
-<script type="text/javascript" src="scripts/jquery.tweet.js"></script>
 <script type="text/javascript" src="scripts/jquery.cycle.lite.js"></script>
 
 <script type="text/javascript">
@@ -28,13 +27,6 @@ $(document).ready(function() {
 	
 	$(".idTabs").idTabs();
   
-	$(".latesttweet").tweet({
-		avatar_size: 32,
-		count: 3,
-		filter: function(t){ return ! /^@\w+/.test(t["tweet_raw_text"]); },
-		username: "openaccessphl"
-	});
-	
 	$('.graphic').cycle({
 		fx: 'fade',
 		speed: 1000, 
@@ -189,7 +181,8 @@ $(document).ready(function() {
 				<div class="follow"><p><a href="http://twitter.com/openaccessphl">@OpenAccessPHL on Twitter</a></p></div>
 				
 				<div class="latesttweet">
-				<!-- automatically populated by jquery.tweet.js -->
+					<a class="twitter-timeline" href="https://twitter.com/OpenAccessPHL" data-widget-id="426887769986564096">Tweets by @OpenAccessPHL</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 				</div>
 				
 			</div>
