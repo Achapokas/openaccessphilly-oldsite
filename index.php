@@ -235,12 +235,14 @@ $(document).ready(function() {
 				<p class="description">
 					The next Convening has been set - Feb. 7th at 4P at <a href="https://plus.google.com/114385967595724004864/about?gl=us&hl=en" title="SEPTA HQ on Google Plus">SEPTA, 1234 Market Street</a>.
 				</p>
-				<p>Speakers</p>
+				<p><strong>Speakers</strong></p>
 				<ul>
 					<li>
 						Michael Zaleski, Director of Emerging & Special Technology, SEPTA (Host)
 					</li>
+					<li>
 						Michelle Feldman, Director of Keep Philadelphia Beautiful
+					</li>
 					<li>
 						Maari Porter, Chief Grants Officer, City of Philadelphia
 					</li>
