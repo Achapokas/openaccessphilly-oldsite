@@ -249,7 +249,9 @@ $(document).ready(function() {
 					<li>
 						Moira Baylson, Chief Operating Officer, Next City
 					</li>
-				
+					<li>
+						Jay Chakrapani, President, CK-12 Foundation <em>(just added)</em>
+					</li>	
 			</div>
 			
 		</div>
