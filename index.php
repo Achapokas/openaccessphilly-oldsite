@@ -224,34 +224,31 @@ $(document).ready(function() {
 			
 			<div class="text">
 			
-				<h3>February 7th 4PM at SEPTA</h3>
+				<h3>March 7th 4PM at Devnuts</h3>
 				
 				<div class="calltoaction">
-					<a class="button" href="http://www.eventbrite.com/e/openaccessphl-february-2014-convening-tickets-10130012139">
+					<a class="button" href="http://www.eventbrite.com/e/openaccessphl-march-2014-convening-tickets-10559787609">
 						RSVP for free<br>via Eventbrite
 					</a>
 				</div>
 				
 				<p class="description">
-					The next Convening has been set - Feb. 7th at 4P at <a href="https://plus.google.com/114385967595724004864/about?gl=us&hl=en" title="SEPTA HQ on Google Plus">SEPTA, 1234 Market Street</a>.
+					The next Convening has been set - March 7th at 4P at <a href="http://devnuts.com/about" title="Devnuts">Devnuts, 908A N. 3rd Street</a>.
 				</p>
 				<p><strong>Speakers</strong></p>
 				<ul>
 					<li>
-						Michael Zaleski, Director of Emerging & Special Technology, SEPTA (Host)
+						<strong>Rebecca Lopez Kriss</strong> - Startup PHL/City of Philadelphia Commerce Department
 					</li>
 					<li>
-						Michelle Feldman, Director of Keep Philadelphia Beautiful
+						<strong>Jedidiah Weller</strong> - Geeklist
 					</li>
 					<li>
-						Maari Porter, Chief Grants Officer, City of Philadelphia
+						<strong>Mike Dunn</strong> - US Environmental Protection Agency
 					</li>
 					<li>
-						Moira Baylson, Chief Operating Officer, Next City
+						<strong>John Fazio</strong> - DevNuts
 					</li>
-					<li>
-						Jay Chakrapani, President, CK-12 Foundation <em>(just added)</em>
-					</li>	
 			</div>
 			
 		</div>
