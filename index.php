@@ -86,7 +86,7 @@ $(document).ready(function() {
 			<div id="initiatives">
 				
 				<ul class="idTabs clearfix">
-					<!-- bizarre <li> tag placement to avoid extra spacing because they're inline-block. see end of this article:
+					<!-- bizarre <li> tag placement to avoid extra spacing because they''re inline-block. see end of this article:
 					http://robertnyman.com/2010/02/24/css-display-inline-block-why-it-rocks-and-why-it-sucks/ -->
 					<li><a href="#civicparticipation">Civic Participation &amp; Innovation</a></li><li>
 					<a href="#freeinformation">Free Information Flow</a></li><li>
