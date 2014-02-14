@@ -220,36 +220,7 @@ $(document).ready(function() {
 		
 		<div id="conference" class="clearfix">
 			
-			<h2>Next Convening</h2>
-			
-			<div class="text">
-			
-				<h3>March 7th 4PM at Devnuts</h3>
-				
-				<div class="calltoaction">
-					<a class="button" href="http://www.eventbrite.com/e/openaccessphl-march-2014-convening-tickets-10559787609">
-						RSVP for free<br>via Eventbrite
-					</a>
-				</div>
-				
-				<p class="description">
-					The next Convening has been set - March 7th at 4P at <a href="http://devnuts.com/about" title="Devnuts">Devnuts, 908A N. 3rd Street</a>.
-				</p>
-				<p><strong>Speakers</strong></p>
-				<ul>
-					<li>
-						<strong>Rebecca Lopez Kriss</strong> - Startup PHL/City of Philadelphia Commerce Department
-					</li>
-					<li>
-						<strong>Jedidiah Weller</strong> - Geeklist
-					</li>
-					<li>
-						<strong>Mike Dunn</strong> - US Environmental Protection Agency
-					</li>
-					<li>
-						<strong>John Fazio</strong> - DevNuts
-					</li>
-			</div>
+			<iframe src="http://www.eventbrite.com/e/openaccessphl-march-2014-convening-tickets-10559787609" frameborder="0" height="1000" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
 			
 		</div>
 		
