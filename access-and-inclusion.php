@@ -56,7 +56,7 @@
 		
 			<div id="intro">
 			
-				<h1>Digital Inclusion</h1>
+				<h1>Access and Inclusion</h1>
 				<p class="description">Identifying and fulfilling infrastructure, connectivity, and content needs so that all Philadelphians have the opportunity to connect to our digital future.</p>
 				
 				<p>The City's approach to Digital Inclusion considers both access and adoption as critical elements.  Our largest Digital Inclusion initiative, The Freedom Rings Partnership, is a collaborative consortium of nonprofits, universities, and City agencies working to provide physical infrastructure so that citizens can access technology, but also develop content and training programs so that citizens can adopt technology.</p>

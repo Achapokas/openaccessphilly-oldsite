@@ -56,10 +56,10 @@
 		
 			<div id="intro">
 			
-				<h1>Civic Participation &amp; Innovation</h1>
-				<p class="description">Leveraging powerful and sophisticated Internet-based tools so that Philadelphians can organize around and advance meaningful change in their neighborhoods and elsewhere.</p>
+				<h1>Civic Technology</h1>
+				<p class="description">Economic Development in the Infotec space: Removing roadblocks, providing incentives, and supporting the IT producing/using sectors to increase employment, revenue, productivity, prominence, and innovation.</p>
 				
-				<p>As America's Hometown, Philadelphia has and always will be a hothouse of civic participation and innovation.  With the advent of powerful and sophisticated Internet-based tools, we have the opportunity to unleash the full potential of positive, constructive, collective action.  Advancing projects such as Change by Us Philly, and partnering with organizations like Code for America, we are prototyping new civic organizing structures and processes that leverage more effectively existing networks and resources to achieve more focused and sustainable outcomes.</p>
+				<p>A 2008 Chamber of Commerce study found Infotec to be 8.5 % of the local economy. There are two flavors of IT companies: IT producers &amp; IT users. There is a powerful multiplier effect &ndash; for every job created in the IT sector, 2.5 user positions are created. As a region, we will elevate our successes by connecting IT professionals and businesses to resources and to one other to ensure that innovative companies and individuals find Philadelphia to be their location of choice to start, grow and innovate in the infotec economy.</p>
 				
 				
 			</div>

@@ -34,6 +34,24 @@ $(document).ready(function() {
 	});
 	
 });
+
+// get eventbrite details
+$(document).ready(function(){
+	$.ajax({
+	    type: "GET",
+		url: "https://www.eventbrite.com/xml/organizer_list_events?app_key=B4N7BU7RR3IASTANFQ&id=5569007065",
+		dataType: "xml",
+		success: function(xml) {
+			$(xml).find('event').each(function(){
+				var id = $(this).find('id').text();
+				var title = $(this).find('title').text();
+				var description = $(this).find('description').text();
+				$('<div id="event_'+id+'"></div>').html('<p>'+title+'</p>').appendTo('#conference');
+				});
+			});
+		}
+	});
+});
 </script>
 
 </head>
@@ -88,14 +106,14 @@ $(document).ready(function() {
 				<ul class="idTabs clearfix">
 					<!-- bizarre <li> tag placement to avoid extra spacing because they''re inline-block. see end of this article:
 					http://robertnyman.com/2010/02/24/css-display-inline-block-why-it-rocks-and-why-it-sucks/ -->
-					<li><a href="#communityparticipation">Community Participation</a></li><li>
-					<a href="#opendata">Open Data</a></li><li>
-					<a href="#accessandinclusion">Access and Inclusion</a></li><li>
-					<a href="#civictechnology">Civic Technology</a></li>
+					<li><a href="#civicparticipation">Civic Participation &amp; Innovation</a></li><li>
+					<a href="#freeinformation">Free Information Flow</a></li><li>
+					<a href="#digitalinclusion">Digital Inclusion</a></li><li>
+					<a href="#infotec">Infotec Biz Growth</a></li>
 				</ul>
 				
-				<div id="communityparticipation" class="initiative clearfix">
-					<p class="header">Community Participation</p>
+				<div id="civicparticipation" class="initiative clearfix">
+					<p class="header">Civic Participation &amp; Innovation</p>
 					<p>Leveraging powerful and sophisticated Internet-based tools so that Philadelphians can organize around and advance meaningful change in their neighborhoods and elsewhere.</p>
 					
 					<p class="header">Featured Projects</p>
@@ -116,8 +134,8 @@ $(document).ready(function() {
 					
 				</div>
 				
-				<div id="opendata" class="initiative clearfix">
-					<p class="header">Open Data</p>
+				<div id="freeinformation" class="initiative clearfix">
+					<p class="header">Free Information Flow</p>
 					<p>Providing Philadelphians with the data, information and applications they need to advance meaningful change in their communities.</p>
 					
 					<p class="header">Featured Projects</p>
@@ -134,7 +152,7 @@ $(document).ready(function() {
 					
 				</div>
 
-				<div id="accessandinclusion" class="initiative clearfix">
+				<div id="digitalinclusion" class="initiative clearfix">
 					<p class="header">Connecting Philadelphia to a Digital Future</p>
 					<p>Provide physical infrastructure so that citizens can <em>access</em> technology, but also develop content and training programs so that citizens can <em>adopt</em> technology.</p>
 					
@@ -156,8 +174,8 @@ $(document).ready(function() {
 					
 				</div>
 
-				<div id="civictechnology" class="initiative clearfix">
-					<p class="header">Economic Development in the civictechnology space</p>
+				<div id="infotec" class="initiative clearfix">
+					<p class="header">Economic Development in the Infotec space</p>
 					<p>Removing roadblocks, providing incentives, and supporting the IT producing/using sectors to increase employment, revenue, productivity, prominence, and innovation.</p>
 					
 					<p class="header">Featured Projects</p>
@@ -220,8 +238,11 @@ $(document).ready(function() {
 		
 		<div id="conference" class="clearfix">
 			
-			<iframe src="http://www.eventbrite.com/e/openaccessphl-march-2014-convening-tickets-10559787609" frameborder="0" height="1000" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
+			<h2>Next Convening</h2>
 			
+			<div class="text" style="width:100%; text-align:left;" >
+				<p>Next event: </p>
+			</div>
 		</div>
 		
 		

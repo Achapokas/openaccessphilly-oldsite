@@ -56,7 +56,7 @@
 		
 			<div id="intro">
 			
-				<h1>Free Information Flow</h1>
+				<h1>Open Data</h1>
 				<p class="description">Providing Philadelphians with the data, information and applications they need to advance meaningful change in their communities</p>
 				
 				<p>The Free Information Flow vision for OpenAccessPhilly seeks to connect all initiatives that combine the passion and creativity of Philadelphians with modern technological tools and open access to information. </p>

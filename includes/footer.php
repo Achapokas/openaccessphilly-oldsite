@@ -4,10 +4,10 @@
 		<li><a href="/">Home</a></li>
 		<li><a href="/initiative.php">Featured Initiatives</a>
 			<ul>
-				<li><a href="/free-information-flow.php">Free Information Flow</a></li>
-				<li><a href="/civic-participation.php">Civic Participation &amp; Innovation</a></li>
-				<li><a href="/digital-inclusion.php">Digital Inclusion</a></li>
-				<li><a href="/infotec-growth.php">Infotec Biz Growth</a></li>
+				<li><a href="/open-data.php">Open Data</a></li>
+				<li><a href="/community-participation.php">Community Participation</a></li>
+				<li><a href="/access-and-inclusion.php">Access and Inclusion</a></li>
+				<li><a href="/civic-technology.php">Civic Technology</a></li>
 			</ul>
 		</li>
 		<li><a href="/contact.php">Contact Us</a>
