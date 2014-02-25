@@ -9,7 +9,7 @@ global $eo_options;
          <?php if($wtd == "a_page") {
 			 $pid = intval($eo_options["jumbo_pid"]);
 			 $thep = get_post( $pid ); ?> 
-			<h1><?php echo $thep->post_title ?></h1>
+			<!--h1><?php echo $thep->post_title ?></h1-->
 			<p><?php  echo $thep->post_content; ?></p>
        <?php }
 	   else { ?>
@@ -17,7 +17,7 @@ global $eo_options;
 			<p><?php bloginfo('description'); ?></p>
        <?php } ?>
 
-            <p><a class="btn btn-primary btn-lg" href="#main"><span class="glyphicon glyphicon-chevron-down"></span>To Posts</a></p>
+            <!--p><a class="btn btn-primary btn-lg" href="#main"><span class="glyphicon glyphicon-chevron-down"></span>To Posts</a></p-->
 		</div>
 	</div>
 <?php }	?>
