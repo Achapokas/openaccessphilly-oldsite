@@ -10,6 +10,9 @@
 
 /** Make sure that the WordPress bootstrap has run before continuing. */
 require( dirname(__FILE__) . '/wp-load.php' );
+//FIXME: do comment/remove these hack lines. (once the database is updated)
+update_option('siteurl', 'http://openaccessphilly.com' );
+update_option('home', 'http://openaccessphilly.com' );
 
 // Redirect to https login if forced to use SSL
 if ( force_ssl_admin() && ! is_ssl() ) {
