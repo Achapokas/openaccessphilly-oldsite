@@ -1,8 +1,12 @@
-# Use PHP5.4 as default
-AddHandler application/x-httpd-php54 .php
-DirectoryIndex index.html index.shtml index.xhtml index.wml index.perl index.pl index.plx index.ppl index.cgi index.jsp index.js index.jp index.php4 index.php3 index.php index.phtml index.htm home.htm default.htm index.fcgi default.html
-ErrorDocument 404 /404.php
 
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^openaccessphilly.com [NC]
-RewriteRule ^(.*)$ http://www.openaccessphilly.com/$1 [L,R=301]
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
